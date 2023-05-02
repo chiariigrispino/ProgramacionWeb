@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    font-family: 'Roboto', sans-serif;
   }
   
   li {
@@ -48,7 +51,43 @@ ul {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  
 .div-text-footer{
     width: 100px;
     text-align: center;
 }
+.imgpcipal{
+  height:100vh
+} 
+.imggridlimp{
+  height:40vh
+} 
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: transparent;
+  justify-content: center;
+}
+
+.flex-container > div {
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: transparent;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
