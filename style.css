@@ -89,5 +89,8 @@ ul {
   font-size: 20px;
   text-align: center;
 }
-
+.foto-carrusel {
+  width:500px;
+  display:block;
+}  
 
