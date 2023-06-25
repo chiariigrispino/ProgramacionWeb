@@ -56,6 +56,17 @@
   .logo{
     height:8vw
   } 
+.grid-item {
+  font-size: 5vh;
+}
+.computadoras{
+ display:none;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+}
+
   }
 
 
